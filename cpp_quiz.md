@@ -23,13 +23,13 @@ int main()
 
 ```
 
-tag:左右值。
+hint:左右值。
 
 ### Answer
 
 `ok`。可以编译成功。
 
-解析：
+### Explanation
 
 > the xvalue `std::move(c)` is *both* an rvalue and a glvalue. So the clause "if [it] is an rvalue" above applies, as does "the resulting glvalue".
 >
@@ -60,7 +60,9 @@ int main() {
 
 `112`
 
-解析：因为不同类型的函数模板偏特化，会有自己独特的静态变量存储区。所以我们最终获得两个实例化的`f function` 。 
+### Explanation
+
+因为不同类型的函数模板偏特化，会有自己独特的静态变量存储区。所以我们最终获得两个实例化的`f function` 。 
 
 ## [Question #188](https://cppquiz.org/quiz/question/188) Difficulty: 2
 
@@ -80,7 +82,7 @@ int main() {
 
 ` The program is undefined.`
 
-解析：
+### Explanation
 
 > Modifying string literals is undefined behavior. In practice, the implementation can for instance store the string literal in read-only memory, such as the code segment. Two string literals might even be stored in overlapping memory. So allowing them to be modified is clearly not a good idea.
 >
@@ -168,7 +170,7 @@ int main() {
 
 The program is guaranteed to output: `1`
 
-## Explain
+### Explanation
 
 We have several pieces of the puzzle, so let's peel away the layers.
 
@@ -240,7 +242,7 @@ int main() {
 
 1255
 
-### 解析
+### Explanation
 
 嗯这题的话我也不太懂随便猜的，居然在第三次猜还猜对了。
 
@@ -296,7 +298,7 @@ int main() {
 
 The program has a compilation error.
 
-### 解析
+### Explanation
 
 这题太妙了，很好的理解了一下`extern`这个关键字。
 
