@@ -1,5 +1,7 @@
-# Cpp quiz practice record
-
+#! https://zhuanlan.zhihu.com/p/607978987
+![image.png](https://s2.loli.net/2023/02/20/XHqTEx4LZzBSM7V.png)
+# Cpp Quiz 练习记录 Week-1
+图源P站`Mika Pikazo`.
 ## [Question #281](https://cppquiz.org/quiz/question/281) Difficulty: 2 
 
 According to the C++17 standard, what is the output of this program?
@@ -126,7 +128,7 @@ int main() {
 
 
 
-## [Question #276](https://cppquiz.org/quiz/question/276) Difficulty: ![3](https://cppquiz.org/static/level-3.png)
+## [Question #276](https://cppquiz.org/quiz/question/276) Difficulty: 3
 
 According to the C++17 standard, what is the output of this program?
 
@@ -153,7 +155,7 @@ int main()
 
 
 
-## [Question #206](https://cppquiz.org/quiz/question/206) Difficulty: ![3](https://cppquiz.org/static/level-3.png)
+## [Question #206](https://cppquiz.org/quiz/question/206) Difficulty: 3
 
 According to the C++17 standard, what is the output of this program?
 
@@ -185,7 +187,7 @@ unary-expression:
 
 
 
-## [Question #132](https://cppquiz.org/quiz/question/132) Difficulty: ![1](https://cppquiz.org/static/level-1.png)
+## [Question #132](https://cppquiz.org/quiz/question/132) Difficulty: 1
 
 According to the C++17 standard, what is the output of this program?
 
@@ -210,7 +212,7 @@ int main() {
 
 11.
 
-## [Question #226](https://cppquiz.org/quiz/question/226) Difficulty: ![2](https://cppquiz.org/static/level-2.png)
+## [Question #226](https://cppquiz.org/quiz/question/226) Difficulty: 2
 
 According to the C++17 standard, what is the output of this program?
 
@@ -270,7 +272,7 @@ Y y1是默认构造，所以输出`1` 。
 
 以上。
 
-## [Question #198](https://cppquiz.org/quiz/question/198) Difficulty: ![2](https://cppquiz.org/static/level-2.png)
+## [Question #198](https://cppquiz.org/quiz/question/198) Difficulty: 2
 
 According to the C++17 standard, what is the output of this program?
 
